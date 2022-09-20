@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrumptious Selection</title>
+    <link rel="stylesheet" href="ordered.css">
+    <script src="ordered.js"></script>
+</head>
+
+<body onload="myFunction(), randnum()" style="margin:0;"> <!-- When the page loads, run the functions and have a margin of 0 -->
+<div id="loader"></div> <!-- The loading symbol position -->
+
+<div style="display:none;" id="loaded" class="animate-bottom"> <!-- Set the whole text to not visible -->
+    <br><br><br><br><br><br><br><br><br><br><br> <!-- This is to center the text -->
+    <h2>Hooray!</h2> <!-- TEXT! -->
+    <p>Your Order has been Processed!</p> <!-- MORE TEXT! -->
+    <p>↓↓↓ Order Number ↓↓↓</p> <!-- EVEN MORE TEXT! -->
+    <p id="randnum"></p> <!-- The random order number is printed in here -->
+    <a href="intro.html"><button>-Finish-</button></a> <!-- A button that takes you back to the home page once pressed -->
+</div>
+
+</body>
+</html>
